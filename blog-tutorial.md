@@ -1,8 +1,8 @@
-When reading about a new framework, I often find that the best way to get familiar is to read a brief tutorial on how to develop a simple application. This can quickly give new users a sense of the development flow and processes involved in using a framework. This guide will show new users how to develop a simple blog using the Padrino framework. Along the way, each step will be explained and links will be provided to further information on different relevant topics.
+学习一个框架，我发现最好的方法就是阅读一篇实际通过操作建立一个小的应用的文章。When reading about a new framework, I often find that the best way to get familiar is to read a brief tutorial on how to develop a simple application. This can quickly give new users a sense of the development flow and processes involved in using a framework. This guide will show new users how to develop a simple blog using the Padrino framework. Along the way, each step will be explained and links will be provided to further information on different relevant topics.
 
 
 
-## Screencast
+## 演示
 
 [![](http://padrino.s3.amazonaws.com/screencast_1.png)](http://padrino.s3.amazonaws.com/screencast_1.mov)
 
@@ -15,7 +15,7 @@ There is a poll on [PeepCode](http://suggestions.peepcode.com/forums/15-general/
 
 
 
-## Study Guide
+## 学习指南
 
 To skip this tutorial or immediately see the complete blog tutorial project, you can either checkout the [blog tutorial repository](http://github.com/padrino/sample_blog) using Git:
 
@@ -29,7 +29,7 @@ To learn more about our template generator, be sure to check out the the [genera
 
 
 
-## Installation
+## 安装
 
 In order to develop a Padrino application, we must have a few things installed. First, we must obviously have [ruby](http://www.ruby-lang.org/en/) and [rubygems](http://rubygems.org/) installed. Next, we must install the padrino framework gems:
 
@@ -39,7 +39,7 @@ For more details on installation, check out the [installation guide](/guides/ins
 
 
 
-## Project Generation
+## 生成项目
 
 To create a Padrino application, the best place to start is using the convenient Padrino generator. Similar to Rails, Padrino has a project generator which will create a skeleton application with all the files you need to being development of your new idea. Padrino is an agnostic framework and supports using a variety of different template, testing, JavaScript and database components. You can learn more by reading the [generators guide](/guides/generators).
 
@@ -99,7 +99,7 @@ Be sure to check out the [controllers guide](/guides/controllers) for a comprehe
 
 
 
-## Admin Dashboard Setup
+## 建立管理端
 
 Next, this is a good time to setup the Padrino Admin panel which allows us to easily view, search and modify data for a project. Let’s go back to the console and enter:
 
